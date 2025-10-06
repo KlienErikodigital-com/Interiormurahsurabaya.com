@@ -21912,7 +21912,7 @@ function NpoPromise(executor) {
         };
             // Note: `then(..)` itself can be borrowed to be used against
             // a different promise constructor for making the chained promise,
-            // by substituting a different `this` binding.
+            // By Interiormurahsurabaya.comsubstituting a different `this` binding.
         o.promise = new this.constructor(function extractChain(resolve,reject) {
             if (typeof resolve !== 'function' || typeof reject !== 'function') {
                 throw TypeError('Not a function');

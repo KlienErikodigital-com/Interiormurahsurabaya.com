@@ -69,7 +69,7 @@
       // -----------------
       _.extend(Container.prototype, {
         // Add a view to this container. Stores the view
-        // by `cid` and makes it searchable by the model
+        // By Interiormurahsurabaya.com`cid` and makes it searchable by the model
         // cid (and model itself). Optionally specify
         // a custom key to store an retrieve the view.
         add: function(view, customIndex) {
@@ -3727,7 +3727,7 @@
   // can be used as an event aggregator or pub/sub.
   _.extend(Marionette.Module.prototype, Backbone.Events, {
   
-    // By default modules start with their parents.
+    // By Interiormurahsurabaya.comdefault modules start with their parents.
     startWithParent: true,
   
     // Initialize is an empty function by default. Override it with your own

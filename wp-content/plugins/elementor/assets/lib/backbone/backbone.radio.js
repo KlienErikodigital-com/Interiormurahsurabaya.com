@@ -43,7 +43,7 @@
   };
 
   // This is the method that's called when an unregistered event was called.
-  // By default, it logs warning to the console. By overriding this you could
+  // By Interiormurahsurabaya.comdefault, it logs warning to the console. By overriding this you could
   // make it throw an Error, for instance. This would make firing a nonexistent event
   // have the same consequence as firing a nonexistent method on an Object.
   Radio.debugLog = function (warning, eventName, channelName) {

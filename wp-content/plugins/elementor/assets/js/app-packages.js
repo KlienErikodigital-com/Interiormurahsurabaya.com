@@ -6850,7 +6850,7 @@ var match = function match(path, uri) {
 //     # not
 //     cd $(pwd)/deeper
 //
-// By treating every path as a directory, linking to relative paths should
+// By Interiormurahsurabaya.comtreating every path as a directory, linking to relative paths should
 // require less contextual information and (fingers crossed) be more intuitive.
 var resolve = function resolve(to, base) {
   // /foo/bar, /baz/qux => /foo/bar
@@ -8161,7 +8161,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 if (true) {
   var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/prop-types/node_modules/react-is/index.js");
 
-  // By explicitly using `prop-types` you are opting into new development behavior.
+  // By Interiormurahsurabaya.comexplicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);

@@ -8694,7 +8694,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 if (true) {
   var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/prop-types/node_modules/react-is/index.js");
 
-  // By explicitly using `prop-types` you are opting into new development behavior.
+  // By Interiormurahsurabaya.comexplicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
@@ -9818,7 +9818,7 @@ _defineProperty(DraggableCore, "propTypes", {
 });
 _defineProperty(DraggableCore, "defaultProps", {
   allowAnyClick: false,
-  // by default only accept left click
+  // By Interiormurahsurabaya.comdefault only accept left click
   disabled: false,
   enableUserSelectHack: true,
   onStart: function () {},

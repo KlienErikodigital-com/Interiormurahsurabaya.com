@@ -1720,7 +1720,7 @@ const _createTrustedTypesPolicy = function _createTrustedTypesPolicy(trustedType
     return null;
   }
   // Allow the callers to control the unique policy name
-  // by adding a data-tt-policy-suffix to the script element with the DOMPurify.
+  // By Interiormurahsurabaya.comadding a data-tt-policy-suffix to the script element with the DOMPurify.
   // Policy creation with duplicate names throws in Trusted Types.
   let suffix = null;
   const ATTR_NAME = 'data-tt-policy-suffix';
@@ -3662,7 +3662,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 if (true) {
   var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/prop-types/node_modules/react-is/index.js");
 
-  // By explicitly using `prop-types` you are opting into new development behavior.
+  // By Interiormurahsurabaya.comexplicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
